@@ -17,7 +17,7 @@ figure {
 
 header {
   height: 35vh;
-  background-image: url('../img/landscape.jpg');
+  background-image: url('../img/landscape.JPG');
   background-size: cover;
   display: flex;
   flex-flow: column;
