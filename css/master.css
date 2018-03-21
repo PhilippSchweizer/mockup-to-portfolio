@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400');
+body {
+  padding: 0.25rem;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  grid-gap: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body>* {
+  grid-column: col-start / span 12;
+}
+
+figure {
+  margin: 0;
+}
+
+header {
+  height: 35vh;
+  background-image: url('../img/landscape.jpg');
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+}
+
+.logo-title-row {
+  padding: 0.5em 0.5em 0 0.5em;
+  display: flex;
+  align-items: flex-start;
+  /* align-self: flex-end; */
+  justify-content: space-between;
+}
+
+.logo {
+  width: 3em;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 200;
+  margin: 0;
+}
+
+.subtitle-row {
+  padding: 0em 0.5em;
+}
+
+.subtitle {
+  font-weight: 300;
+  /* font-variant: small-caps; */
+  margin: 0;
+  text-align: right;
+}
+
+.feature-title {
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5em;
+}
+
+figure img {
+  width: 100%;
+}
+
+footer {
+  justify-self: center;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .feature-01 {
+    grid-column: col-start / span 4;
+  }
+  .feature-02 {
+    grid-column: 5 / span 4;
+  }
+  .feature-03 {
+    grid-column: 9 / span 4;
+  }
+}

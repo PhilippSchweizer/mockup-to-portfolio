@@ -1,0 +1,12 @@
+{
+  "name": "mockup-to-portfolio",
+  "version": "1.0.0",
+  "description": "This is project #02 in FEND Nanodegree where I am tasked with coding the homepage of an portfolio site based on a mockup PDF",
+  "main": "index.js",
+  "repository": "https://github.com/PhilippSchweizer/mockup-to-portfolio",
+  "author": "pms",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
